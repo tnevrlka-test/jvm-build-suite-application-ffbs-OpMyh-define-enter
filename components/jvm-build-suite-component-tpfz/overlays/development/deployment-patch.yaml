@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-tpfz
+  namespace: jvm-build-gocp-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:7c7a66a91498138d3d096662ffdf2c3c332fb1df91e1517a1eb84259a0beae8a
+        name: container-image
+        resources: {}
+status: {}
