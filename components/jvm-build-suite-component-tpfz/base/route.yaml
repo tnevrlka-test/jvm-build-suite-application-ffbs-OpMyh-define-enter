@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-tpfz
     app.kubernetes.io/part-of: jvm-build-suite-application-ffbs
-  name: jvm-build-suite-componento1qz
+  name: jvm-build-suite-componentui0b
   namespace: jvm-build-gocp-tenant
 spec:
   port:

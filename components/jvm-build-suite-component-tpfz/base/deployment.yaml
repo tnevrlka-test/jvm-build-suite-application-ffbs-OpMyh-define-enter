@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-tpfz
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:181db2657dfa44dfa7c890fffc28fcf2
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:7c7a66a91498138d3d096662ffdf2c3c332fb1df91e1517a1eb84259a0beae8a
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
